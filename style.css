@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(src/imagens/c63cae1344766f14d9d184e5aafed065.gif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    background: rgba(44, 62, 80, 0.8);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+section h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 25px;
+
+}
+
+section form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+
+form label {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+form .mensagem{
+    margin-bottom: 18px;
+}
+
+
+
+
+form input {
+    width: 100%;
+    padding: 6px;
+    cursor: pointer;
+    outline: none;
+transition: all 1.54s;
+background: #ffffff76;
+
+
+}
+
+form input:hover {
+    border-radius: 5px;
+    box-shadow: rgba(251, 251, 251, 0.582) 0px 50px 100px -20px, rgba(243, 241, 241, 0.653) 0px 30px 60px -30px, rgba(210, 216, 221, 0.35) 0px -2px 6px 0px inset;
+    transform: scale(1.2);
+}
+
+form textarea{
+    width: 100%;
+    padding: 60px;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 15px;
+    background: #ffffff76;
+    text-align: start;
+
+}
+
+
+
+
+form textarea:hover{
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+
+form button{
+width: 90px;
+padding: 6px;
+margin-top: 15px;
+margin-bottom: 25px;
+border-radius: 50px;
+transition: all 1.54s;
+cursor: pointer;
+background: #ffffff76;
+font-weight: bolder;
+}
+
+form button:hover{
+    background: rgba(35, 206, 35, 0.727);
+    box-shadow: rgba(35, 206, 35, 0.374) 0px 4px 16px;
+    transform: scale(1.5);
+}
+
+
