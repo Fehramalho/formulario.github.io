@@ -14,7 +14,7 @@
 <body>
     <section>
         <h2>Contatos</h2>
-        <form action="" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="post">
             <input type="hidden" name="accessKey" value="c6d0300f-4ae8-4e9b-945e-d522e2c5cac9">
 
             <label for="name">Nome:</label>
@@ -28,7 +28,8 @@
 
             <label for="message">Mensagem</label>
             <textarea id="message" name="message" placeholder="digite sua mensagem" required rows="10" ></textarea>
-            <button type="submit"><a href="obrigado.html">Enviar</a></button>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
         </form>
     </section>
 
